@@ -12,4 +12,4 @@
 	url = https://github.com/raduzoom/ticketing-tickets.git
 [submodule "orders"]
 	path = orders
-	url = ./orders
+	url = https://github.com/raduzoom/ticketing-orders.git
