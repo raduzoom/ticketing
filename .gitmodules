@@ -1,6 +1,7 @@
 [submodule "common"]
 	path = common
 	url = https://github.com/raduzoom/auth-common.git
+    branch = main
 [submodule "client"]
 	path = client
 	url = https://github.com/raduzoom/ticketing-client.git
@@ -10,6 +11,8 @@
 [submodule "tickets"]
 	path = tickets
 	url = https://github.com/raduzoom/ticketing-tickets.git
+    branch = main
 [submodule "orders"]
 	path = orders
 	url = https://github.com/raduzoom/ticketing-orders.git
+    branch = main
