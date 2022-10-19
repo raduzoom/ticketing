@@ -4,3 +4,4 @@ node_modules
 */node_modules/*
 .idea
 skaffold
+nats-test/node_modules
