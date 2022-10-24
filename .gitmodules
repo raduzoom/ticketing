@@ -18,3 +18,7 @@
 	path = orders
 	url = https://github.com/raduzoom/ticketing-orders.git
     branch = main
+[submodule "expiration"]
+	path = expiration
+	url = https://github.com/raduzoom/ticketing-expiration.git
+	branch = main
