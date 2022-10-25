@@ -22,3 +22,7 @@
 	path = ticketing-expiration
 	url = https://github.com/raduzoom/ticketing-expiration.git
 	branch = main
+[submodule "ticketing-payments"]
+	path = ticketing-payments
+	url = https://github.com/raduzoom/ticketing-payments.git
+	branch = main

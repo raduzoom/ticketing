@@ -41,3 +41,19 @@ build:
         manual:
           - src: "**/*.js"
             dest: .
+    - image: us.gcr.io/cloud-demo-364211/ticketing-expiration
+      context: ticketing-expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "**/*.js"
+            dest: .
+    - image: us.gcr.io/cloud-demo-364211/ticketing-payments
+      context: ticketing-payments
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "**/*.js"
+            dest: .
