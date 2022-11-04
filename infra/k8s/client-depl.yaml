@@ -21,6 +21,11 @@ spec:
                 secretKeyRef:
                   name: jwt-secret
                   key: JWT_KEY
+            - name: STRIPE_KEY_PUBLIC
+              valueFrom:
+                secretKeyRef:
+                  name: stripe-secret-public
+                  key: STRIPE_KEY_PUBLIC
 ---
 apiVersion: v1
 kind: Service
